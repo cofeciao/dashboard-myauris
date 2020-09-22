@@ -1,0 +1,168 @@
+html, body {padding:0;margin:0}
+body {
+    font-size: 13pt !important;
+    font-family: "Roboto", "Times New Roman", Times, serif;
+    line-height: 1.3;
+    background: #fff!important;
+    color: #000!important
+}
+#deposit-template {
+    margin: 2cm 2cm 2cm 3cm;
+    padding-bottom: 4cm
+}
+#deposit-template h1 {
+    font-size: 18pt;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+#deposit-template ul {
+    margin-left: 0;
+}
+#deposit-template li {
+    line-height: 1.6em
+}
+#deposit-template .list-note {
+    text-align: justify;
+}
+#deposit-template .list-note li {
+    text-indent: 16pt;
+}
+#deposit-template .table th, #deposit-template .table td {
+    padding: 0.75rem;
+}
+#deposit-template .table th {
+    font-weight: bold;
+    vertical-align: top;
+}
+#deposit-template .table td:nth-child(1) {
+    width: 60px
+}
+#deposit-template .table td:nth-child(2) {}
+#deposit-template .table td:nth-child(3) {}
+#deposit-template .table td:nth-child(4) {
+    width: 150px
+}
+#deposit-template .table td:nth-child(5) {
+    width: 150px
+}
+#deposit-template .table td:nth-child(6) {
+    width: 150px
+}
+@media print {
+    @page { size: A4; margin: 0 }
+    html, body {padding:0;margin:0}
+    body {
+        font-size: 13pt !important;
+        font-family: "Roboto", "Times New Roman", Times, serif;
+        line-height: 1.3;
+        background: #fff!important;
+        color: #000!important;
+    }
+    h1 {
+        font-size: 24pt
+    }
+    h2, h3, h4 {
+        font-size: 14pt;
+        margin-top: 25px
+    }
+    a {
+        page-break-inside: avoid
+    }
+    blockquote {
+        page-break-inside: avoid
+    }
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+        page-break-inside: avoid
+    }
+    img {
+        page-break-inside: avoid;
+        page-break-after: avoid
+    }
+    table, pre {
+        page-break-inside: avoid
+    }
+    ul, ol, dl {
+        page-break-before: avoid
+    }
+    a:link, a:visited, a {
+        background: transparent;
+        color: #520;
+        font-weight: 700;
+        text-decoration: underline;
+        text-align: left
+    }
+    a {
+        page-break-inside: avoid
+    }
+    a[href^=http]:after {
+        content: " <" attr(href) "> "
+    }
+    article a[href^="#"]:after {
+        content: ""
+    }
+    a:not(:local-link):after {
+        content: " <" attr(href) "> "
+    }
+    p, address, li, dt, dd, blockquote {
+        font-size: 100%
+    }
+    code, pre {
+        font-family: "Courier New", Courier, mono
+    }
+    ul, ol {
+        list-style: square;
+        margin-left: 18pt;
+        margin-bottom: 20pt
+    }
+    li {
+        line-height: 1.6em
+    }
+    header nav, footer {
+        display: none;
+    }
+    #deposit-template {
+        margin: 2cm 2cm 2cm 3cm;
+        padding-bottom: 4cm
+    }
+    #deposit-template h1 {
+        font-size: 18pt;
+        font-weight: 600;
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+    }
+    #deposit-template ul {
+        margin-left: 0;
+    }
+    #deposit-template li {
+        line-height: 1.6em
+    }
+    #deposit-template .list-note {
+        text-align: justify;
+    }
+    #deposit-template .list-note li {
+        text-indent: 16pt;
+    }
+    #deposit-template .table th, #deposit-template .table td {
+        padding: 0.75rem;
+    }
+    #deposit-template .table th {
+        font-weight: bold;
+        vertical-align: top;
+    }
+    #deposit-template .table td:nth-child(1) {
+        width: 60px
+    }
+    #deposit-template .table td:nth-child(2) {}
+    #deposit-template .table td:nth-child(3) {}
+    #deposit-template .table td:nth-child(4) {
+        width: 150px
+    }
+    #deposit-template .table td:nth-child(5) {
+        width: 150px
+    }
+    #deposit-template .table td:nth-child(6) {
+        width: 150px
+    }
+}

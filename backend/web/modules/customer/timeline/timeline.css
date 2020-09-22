@@ -1,0 +1,198 @@
+.timeline-container {
+    position: relative;
+    padding: 0px 10px 20px;
+}
+.timeline-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #DDD;
+    left: 50%;
+    z-index: 0;
+    transform: translateX(-50%);
+}
+.timeline-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.timeline-container > * {
+    position: relative;
+    z-index: 1;
+}
+.timeline-tag-title {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+.timeline-tag + .timeline-tag {
+    margin-top: 75px;
+}
+.timeline-tag.center + .timeline-tag {
+    margin-top: 20px;
+}
+.timeline-tag-title + .timeline-tag.center {
+    margin-top: 40px;
+}
+.timeline-tag.center + .timeline-tag.center {
+    margin-top: 70px;
+}
+.timeline-tag {
+    width: 50%;
+}
+.timeline-tag.left {
+    padding-right: 40px;
+}
+.timeline-tag.right {
+    padding-left: 40px;
+}
+.timeline-tag-content {
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 10px 40px 0 rgba(62,57,107,.1), 0 2px 9px 0 rgba(62,57,107,.1);
+    box-shadow: 0 10px 40px 0 rgba(62,57,107,0.1), 0 2px 9px 0 rgba(62,57,107,0.1);
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+}
+.left .timeline-tag-content {
+    border-radius: 5px 0px 0px 5px;
+}
+.right .timeline-tag-content {
+    border-radius: 0px 5px 5px 0px;
+}
+.timeline-tag.left .timeline-tag-content:before {
+    content: "";
+    top: 10px;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-top: solid 10px transparent;
+    border-bottom: solid 10px transparent;
+    line-height: 0;
+    position: absolute;
+    border-left: 11px solid #ececec;
+}
+.timeline-tag.left .timeline-tag-content:after {
+    content: "";
+    top: 10px;
+    right: -11px;
+    width: 0;
+    height: 0;
+    border-top: solid 10px transparent;
+    border-bottom: solid 10px transparent;
+    line-height: 0;
+    position: absolute;
+    border-left: 11px solid #FFF;
+}
+.timeline-tag.right .timeline-tag-content:before {
+    content: "";
+    top: 10px;
+    left: -12px;
+    width: 0;
+    height: 0;
+    border-top: solid 10px transparent;
+    border-bottom: solid 10px transparent;
+    line-height: 0;
+    position: absolute;
+    border-right: 11px solid #ececec;
+}
+.timeline-tag.right .timeline-tag-content:after {
+    content: "";
+    top: 10px;
+    left: -11px;
+    width: 0;
+    height: 0;
+    border-top: solid 10px transparent;
+    border-bottom: solid 10px transparent;
+    line-height: 0;
+    position: absolute;
+    border-right: 11px solid #FFF;
+}
+.timeline-tag.center .timeline-tag-content:before {
+    content: "";
+    top: -12px;
+    left: 50%;
+    margin-left: -10px;
+    width: 0;
+    height: 0;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+    line-height: 0;
+    position: absolute;
+    border-bottom: 12px solid #ececec;
+}
+.timeline-tag.center .timeline-tag-content:after {
+    content: "";
+    top: -11px;
+    left: 50%;
+    margin-left: -10px;
+    width: 0;
+    height: 0;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+    line-height: 0;
+    position: absolute;
+    border-bottom: 11px solid #fff;
+}
+.timeline-tag.center {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.timeline-tag.left, .timeline-tag.center, .timeline-tag-title {
+    float: left;
+}
+.timeline-tag.right {
+    float: right;
+}
+.timeline-icon {
+    position: absolute;
+}
+.timeline-icon > div {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px #000;
+}
+.timeline-title {
+    padding: 20px 20px 0;
+    font-weight: bold;
+}
+.timeline-title > span {
+    font-weight: normal;
+}
+.timeline-time {
+    font-style: italic;
+    color: #999;
+}
+.timeline-title .timeline-time {
+    font-size: 11px;
+}
+.timeline-tag-content .timeline-time {
+    font-size: 12px;
+}
+.timeline-content {
+    padding: 10px 20px 20px;
+}
+.left .timeline-icon {
+    right: 0px;
+    top: 5px;
+    margin-right: -17.5px;
+}
+.right .timeline-icon {
+    left: 0px;
+    top: 5px;
+    margin-left: -17.5px;
+}
+.center .timeline-icon {
+    top: -45px;
+    left: 50%;
+    margin-left: -17.5px;
+}

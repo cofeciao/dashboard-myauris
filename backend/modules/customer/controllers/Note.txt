@@ -1,0 +1,60 @@
+Send SMS
+- Method Http Post
+- UTF-8 encoding and URL encoded cho tham số
+- Content-Type: "application/json" hoặc "application /xml"
+- Whitelist IP: 104.27.182.226
+- api_key và api_secret do vht gửi
+- UUID = 0;
+- Thay số 0 đầu bằng 84
+- http://sms3.vht.com.vn/ccsms/Sms/SMSService.svc/ccsms/xml
+- Cấu trúc:
+    <submission>
+        <api_key>${api_key}</api_key>
+        <api_secret>${api_secret}</api_secret>
+        <sms>
+            <id>${UUID}</id>
+            <brandname>${brandname}</brandname>
+            <text>${text}</text>
+            <to>${recipient}</to>
+        </sms>
+    </submission>
+
+- response = 0 là thành công nếu # 0 là tin bị lỗi
+
+        $data = [
+            'submission' => [
+                'api_key' => 'auriscskh',
+                'api_secret' => 'AUrCcSrIFosizjladuiuwersjkszmTts',
+                'sms' => [
+                    [
+                        'id' => '0',
+                        'brandname' => 'AURIS',
+                        'text' => 'From VHT with love',
+                        'to' => '0975783183',
+                    ],
+                ],
+            ],
+        ];
+        $dataString = json_encode($data);
+        $ch = curl_init('http://sms3.vht.com.vn/ccsms/Sms/SMSService.svc/ccsms/json');
+        //curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $dataString);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt(
+            $ch,
+            CURLOPT_HTTPHEADER,
+            array(
+                'Content-Type: application/json',
+                'Content-Length: ' . strlen($dataString)
+            )
+        );
+        $result = curl_exec($ch);
+        $result = json_decode($result);
+        echo "<pre>";
+        print_r($result);
+        echo "</pre>";
+
+4: May Do NC
+3: Du Phong KT
+2: Smart

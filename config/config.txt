@@ -1,0 +1,5 @@
+#!bin/bash
+- Coppy toàn bộ phần config này vào common/config
+- Hệ thống sử dụng 2 db, db kết nối dùng để đọc, ghi... db2 chỉ dùng để đọc
+- Hệ thống sử dụng mail để gửi lỗi, thiệt lập trong mailer và log
+- API dùng để kết nối với service bên ngoài hệ thống

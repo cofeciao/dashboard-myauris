@@ -1,0 +1,64 @@
+# yii console commands
+#/yii
+/yii_test
+/yii_test.bat
+
+#Composer
+composer.lock
+
+# phpstorm project files
+.idea
+
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+/composer.phar
+/composer.lock
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant
+
+/backend/runtime
+/backend/web/assets
+
+/common/config/_log.php
+/common/config/_db.php
+/common/config/_db2.php
+/common/config/_mailer.php
+/common/config/_console.php
+/common/config/_api.php
+/backend/modules/clinic/token
+/backend/web/uploads
+/backend/web/images/benh-ly
+
+/backend/web/img
+/backend/web/thumbs
+/backend/web/local/file
+
+/log
+
+backend/.htaccess
+frontend/.htaccess
+access.log
+error.log

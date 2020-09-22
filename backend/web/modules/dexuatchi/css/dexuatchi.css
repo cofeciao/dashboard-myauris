@@ -1,0 +1,137 @@
+.multiple-input-list.list-renderer .form-group {
+    display: flex;
+}
+
+
+#form-de-xuat-chi .ccb-content {
+    min-height: 70px;
+}
+
+#dexuatchi-tp_status label {
+    display: block;
+}
+
+.col-id {
+    display: inline-block;
+}
+
+.form-group.has-image .review .hoso-file {
+    max-height: 100px
+
+}
+
+.form-group.has-image .review a {
+    opacity: 1 !important;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    line-height: 1;
+}
+
+.view-de-xuat-chi .form-group.has-image .review a {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.comment-content h2 {
+    font-weight: 700
+}
+
+.footer-right {
+    float: right;
+}
+
+.image_target {
+    border: solid 1px #aaa;
+    min-height: 200px;
+    width: 30%;
+    margin-top: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 300ms all;
+    position: relative;
+}
+
+textarea {
+    background-color: white;
+}
+
+.img_active {
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 255, .4);
+}
+
+.g-list-file .delete-file {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: red;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    border-radius: 3px;
+    z-index: 3;
+}
+
+.image_target:hover .delete-file {
+    opacity: 1;
+}
+
+.select_khoanchi {
+    width: 100%;
+}
+.select_inspectioner{
+    width:100%;
+}
+.popup-slider {
+    position: fixed;
+    width: 350px;
+    height: 100px;
+    background-color: grey;
+    z-index: 8888;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.submit-range {
+    padding: 10px;
+}
+
+.slider {
+    margin-left: 10px;
+}
+
+.slider .tooltip.in {
+    opacity: 1;
+}
+
+.slider .tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000;
+}
+
+.slider .tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.slider .tooltip.top {
+    padding: 5px 0;
+}
+
+.edittable-accept .select2-container {
+    padding: unset;
+    border: unset;
+}

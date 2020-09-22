@@ -1,0 +1,2 @@
+API V2 dung cho app thong qua access_token
+dung domain.com/api/verify de lay access t

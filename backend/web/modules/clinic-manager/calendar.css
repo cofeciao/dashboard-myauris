@@ -1,0 +1,221 @@
+#calendar-container {
+    /*position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;*/
+}
+
+#calendar {
+    width: 100%;
+}
+
+#calendar .fc-header-toolbar { /* the calendar will be butting up against the edges, but let's scoot in the header's buttons */
+    /*padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;*/
+}
+
+#calendar .fc-button.fc-button-primary {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.65);
+    border-color: #d9d9d9;
+}
+
+#calendar .fc-button.fc-button-active {
+    background-color: #1890ff;
+    color: rgba(255, 255, 255, 1);
+    border-color: #1890ff;
+}
+
+#calendar .fc-button .fc-icon {
+    font-size: 1em;
+}
+
+#calendar .fc-toolbar h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.fc-day-header {
+    font-weight: 400;
+}
+
+.fc-day-header .columnHeaderHtml {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fc-day-header .columnHeaderHtml p {
+    margin: 0;
+}
+
+.fc-event {
+    background-color: #1890ff;
+}
+
+.fc-event:not([href]),
+.fc-event:not([href]):hover {
+    color: #fff!important;
+}
+
+.popover {
+    width: 220px;
+    border: none;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.popover-header {
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+
+.popover-title {
+    width: 100%;
+    height: 40px;
+    background: rgb(24, 144, 255);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: rgb(255, 255, 255);
+    padding: 0px 5px;
+}
+
+.popover-title a {
+    display: inline-block;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.popover-title a i {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.popover-title a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.popover.popover-calendar .popover-body {
+    width: 220px;
+    height: auto;
+    padding-left: 0.75rem;
+}
+
+.popover-body .pb-line {
+    width: 100%;
+    background-color: rgb(234, 234, 234);
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.popover-body .pb-title {
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.popover-body .pb-phone,
+.popover-body .pb-doctor,
+.popover-body .pb-room {
+    display: flex
+}
+
+.popover-body .pb-phone p,
+.popover-body .pb-doctor p,
+.popover-body .pb-room p {
+    width: 70px;
+    margin-bottom: 1em;
+}
+
+.popover-body .pb-description {
+    font-family: "Muli";
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.popover-body .pb-time {
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.popover-body .pb-time-2 {
+    background: rgb(230, 247, 255);
+    color: rgb(24, 144, 255);
+    font-size: 12px;
+    width: 68px;
+    height: 22px;
+    border-radius: 4px;
+    border: 1px solid rgb(145, 213, 255);
+    display: flex;
+    justify-content: center;
+    line-height: 22px;
+}
+
+.calendar-note ul {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.calendar-note li {
+    margin: 0 1rem;
+}
+
+#mini-calendar .datepicker {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#mini-calendar .datepicker table {
+    width: 100%;
+}
+
+#mini-calendar .datepicker table thead tr:nth-child(2) {
+    height: 32px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+#mini-calendar .datepicker table thead tr th {
+    font-weight: normal;
+    padding: 5px 0;
+}
+
+#mini-calendar .datepicker table thead tr:nth-child(3) th {
+    padding-top: 10px;
+}
+
+.datepicker table tr td.day {
+    width: 34px;
+    height: 34px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.datepicker table tr td.today,
+.datepicker table tr td.day:hover {
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    box-shadow: 0 0 0 1px #1890ff inset;
+}
+
+.datepicker table tr td.day:hover{
+    background-color: rgb(24, 144, 255)!important;
+    color: rgb(255, 255, 255)!important;
+}
+
+.datepicker table tr td.today,
+.datepicker table tr td.active.active {
+    background-color: rgb(24, 144, 255);
+    background-image: none;
+    color: rgb(255, 255, 255);
+}

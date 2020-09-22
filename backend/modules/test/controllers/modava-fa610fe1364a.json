@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "modava-216804",
+  "private_key_id": "fa610fe1364a89275645a6c2135c94263f3e70d6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdBblby5cstcFw\nnFWJHEFWlusK7mafdF3dtKmTT7QETerWswge4C3TgGwT/9RHlYQDpby8kPbnTBHv\n4AecwbtwBdRZ65Y5U8cV7LrFphVOs+lfONlXW1EUkuB0rEmyHa/1/10Bkc5kPNRk\n5zR97OyasERZpT4MQsCOF10nF37vPrPbm06VBkcRqB1km0zxAiGMOK/0wQ0UVzIb\nyerxwj6aEFRuaodNsFNZfR4k50pL2xiA97nsj71zzPzPr9mFuit/cAZatG8244Uk\n4vxBnEQlUxr65HTbfGpyxa2c4SwlCLOeOU7yN1PW8ZXaLUbjlwa0/grAJb6r+gvR\nVQynIpWRAgMBAAECggEAHiQ2ZdrRqOU13fxAhhqMp0a+lSFYxTSU/SU8JPk4hNgB\nI5gHz8d4PICLHpauBNS8W+fhcDACmTk2uz1dsLdWl+Uik2U/976veXOxEZY1Ql+S\nRXNX8ycmDAU6vWLCHcUJnTbY/19iB0dO/RSNtLt5WqNJ54xq+fcJV+0/tiySMvHg\n/JGrr8ocqcvImntK2qJCxoPHwZOT6ZToTcdpUvu0hgHxYYfw9MAMzK3K2zZW5CG/\nVlTvuhcToi9U9CGBM1vKNY1y7sUsbmuxqVsSZkEe/PryQzwnNqq63/4mHTgrQbad\nGZiRECfgIjg5Zsmc1HWOOmbk64tEng5SD91gzVF7PQKBgQDVZ93TzmTTzv9XHous\nayYh0vZcGZPBy4b51C6nrJUj/S+kE45UOAIuHRhYIoxycDonEtwrso1gJYnyYhqx\nYV0SwG5RIGcK2/gJWDPF34TBTCXZxXfjJ8alSViHevoKdU+MKRSaArtazeosXmon\nQnjdcxQmsnWH+IUi9q95MIxp7QKBgQC8XOesgrLMjNa+6XfvpIdSbuA/kh2uZySE\n9mSWSFCBsXeCqoLbIDNkXCwhXMnbZOr60dl64k1rJJ4ciN86D/vlhmBT4IYcm0MQ\nyAEg8ECFM6QkEd7SWGs8FYJKLc0tLRALasBsAlBSl0Iy6UwjctCv9f4m+T0Nqj6p\nL/ZyMXBVtQKBgCCtNc8/1DqGgJyjZbmx8nXNasGxfOl4s6M/dSFhkLihBRF3mRyW\nMudCtz6Pk7fWLWFcRvA9993YAaZmlTXB9dFwO7QaZQzJn9I2ej77OcWrVkRhMzlK\nFuWqNG8SSoUdb1/Dzo7CilOeIhRHJLP8PquR+mzueIaobCJtaXMCFw4FAoGAB2DA\nNlKcPETb+HhemUVhg4oSQIsxnG4v0QFxqS1F8f6Ihta0725QdQLjO59NzMkkJxTn\nJtgMXkD97HI0BCsyG6hqx35I4n/2XYbn/GlMrar7J+qHRsft01moU819duKH+VqC\nFPj2OnXwQtw+fjj2EZ5aCR7EFG/xqmDVj11+X+0CgYEAyVt104A3fH/vIXsfAveo\nq/MVculcvdLnUkD7ydJUAdvV5oKRJZgT5/IlAmqxgPmNEfRSOAVq2JJWItkC9KHW\nTZlFJ0AghMCE+1hzq3nbklXUGK1LwQgtWeWUDWdKnqH5jO8jffmkoJ2ZlXzGBY6D\nmWBXyIWYyRhzOLW3DpHY68c=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dashboard@modava-216804.iam.gserviceaccount.com",
+  "client_id": "107249661856295943331",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dashboard%40modava-216804.iam.gserviceaccount.com"
+}

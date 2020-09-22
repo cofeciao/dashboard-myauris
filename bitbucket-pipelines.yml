@@ -1,0 +1,11 @@
+pipelines:
+
+  branches:
+    dev:
+      - step:
+          script:
+            - ssh dashboard@103.9.157.116 'cd ~/dev_html && git pull origin dev && yes | ./yii migrate && rm -rf backend/runtime/cache/*'
+    server:
+      - step:
+          script:
+            - ssh dashboard@103.9.157.116 'cd ~/public_html && git pull origin server && yes | ./yii migrate && redis-cli flushall'

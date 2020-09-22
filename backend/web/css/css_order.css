@@ -1,0 +1,103 @@
+.td-list-cell {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+
+.ly-do-chiet-khau-content {
+    position: absolute;
+    top: 100%;
+    right: 4px;
+    width: 250px;
+    z-index: 9;
+    transition: all .3s ease;
+    -webkit-transform-origin: 80% 105%;
+    -ms-transform-origin: 80% 105%;
+    transform-origin: 100% 0%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+.open .ly-do-chiet-khau-content {
+    transform: scale(1);
+}
+
+.ly-do-chiet-khau, .chiet-khau-order {
+    background: #fff;
+    padding-right: 0.5rem !important;
+}
+
+.chiet-khau-order {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none !important;
+}
+
+.td-list-cell > div:first-child {
+    width: calc(100% - 30px);
+}
+
+.btn-handle-ly-do {
+    padding: 5px;
+    width: 30px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-handle-ly-do:hover {
+    background: #eee;
+}
+
+.btn-handle-ly-do .fa-times, .btn-handle-ly-do .fa-edit, .open .btn-handle-ly-do:not(.has-lydo) .fa-plus,
+.btn-handle-ly-do.has-lydo .fa-times, .btn-handle-ly-do.has-lydo .fa-plus, .open .btn-handle-ly-do.has-lydo .fa-edit {
+    display: none;
+}
+
+.open .btn-handle-ly-do {
+    border-color: #FF976A !important;
+    background-color: #FFA87D !important;
+    color: #FFFFFF;
+}
+
+.open .btn-handle-ly-do .fa-times {
+    margin-top: -3px;
+}
+
+.btn-handle-ly-do:not(.has-lydo) .fa-plus, .open .btn-handle-ly-do .fa-times, .btn-handle-ly-do.has-lydo .fa-edit {
+    display: block;
+}
+
+.ly-do-tools {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.ly-do-tools > button {
+    width: 30px;
+}
+
+.ly-do-chiet-khau {
+    resize: none;
+}
+
+#form-don-hang .coupon-input-field .input-coupon-button {
+    display: flex;
+}
+#form-don-hang .coupon-input-field .input-coupon-button .btn::before{
+    content:"X"
+}
+#form-don-hang .order-payment{
+    display:flex;
+}
+#form-don-hang .block-right{
+    width:50%;
+}
+
+#form-don-hang .block-left{
+    width:50%;
+    height:auto;
+}
+

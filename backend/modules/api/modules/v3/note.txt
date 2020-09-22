@@ -1,0 +1,5 @@
+API V3 dung cho app thong qua access_token
+dung domain.com/api/verify de lay access token
+http://365dep.tm/api/v3/app/test
+header :
+    X-Api-Key : qaAE-SYFs8T6YW_X7j7QPLPaeCIWn7B-JuyR5SvD

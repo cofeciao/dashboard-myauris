@@ -1,0 +1,267 @@
+.date-picker-wrapper.date-range-picker19 .day.first-date-selected {
+    background-color: red !important;
+}
+
+.date-picker-wrapper.date-range-picker19 .day.last-date-selected {
+    background-color: orange !important;
+}
+
+.date-picker-wrapper td .day::after, .date-picker-wrapper td .day::before {
+    display: none;
+}
+
+#mainView {
+    flex-grow: 1;
+    height: inherit;
+    position: relative;
+    overflow: visible
+}
+
+#view {
+    vertical-align: top;
+    width: auto;
+    height: auto;
+    margin: 16px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px
+}
+
+#reportContainer {
+    min-height: 300px;
+    position: relative
+}
+
+#reportLoading {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 71
+}
+
+#report {
+    margin: 0;
+    min-width: 99%;
+    min-height: 500px
+}
+
+.report-header-toolbar-simple {
+    background: none repeat scroll 0 0 #f8f9fa;
+    border-bottom: 1px solid #e7e7e7;
+    clear: right;
+    margin: 0 -1px;
+    min-width: 600px;
+    padding: 0
+}
+
+.reporttoolbar-simple {
+    display: flex;
+    justify-content: space-between;
+    min-height: 32px;
+    padding: 0 4px 4px
+}
+
+#reportHeader-reportToolbar-title span {
+    color: #444;
+    font: bold 18px Roboto, sans-serif
+}
+
+.report-toolbar-button-simple {
+    border: 1px solid transparent;
+    color: rgba(0, 0, 0, .65);
+    cursor: pointer;
+    display: inline-block;
+    font: bold 11px Roboto, sans-serif;
+    min-width: 18px;
+    padding: 6px 10px 6px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.report-toolbar-button-simple:hover {
+    background: #e6e6e6;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, .75)
+}
+
+.report-toolbar-button-icon {
+    color: #757575;
+    display: inline-block;
+    height: 18px;
+    margin: 0 8px;
+    vertical-align: -5px;
+    width: 18px
+}
+
+.report-toolbar-button-save-icon {
+    background: url("https://ssl.gstatic.com/analytics/20191017-00/web/save.svg");
+    background-size: 18px 18px
+}
+
+.report-toolbar-button-export-icon {
+    background: url("https://ssl.gstatic.com/analytics/20191017-00/web/export.svg");
+    background-size: 18px 18px
+}
+
+.report-toolbar-button-share-icon {
+    background: url("https://ssl.gstatic.com/analytics/20191017-00/web/share.svg");
+    background-size: 18px 18px
+}
+
+.report-toolbar-button-assistant-icon {
+    background: url("https://ssl.gstatic.com/analytics/20191017-00/web/assistant_new.svg");
+    background-size: 18px 18px
+}
+
+.reportToolbarDivider {
+    border-right: 1px solid #ccc;
+    display: inline-block;
+    height: 60%;
+    margin: 4px;
+    width: 1px
+}
+
+.report-header-widget {
+    display: flex;
+    justify-content: space-between
+}
+
+.report-header-widget-left {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
+}
+
+.segmentHeader {
+    position: relative;
+    margin-top: -1px
+}
+
+.segmentCard-simple {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    min-height: 40px;
+    margin: 10px 0 5px 10px;
+    padding: 10px;
+    position: relative;
+    vertical-align: top;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    white-space: nowrap;
+    width: 323px;
+    z-index: 20
+}
+
+.overview.action-change {
+    color: #005c9c;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 13px Roboto, sans-serif;
+    margin-bottom: -1px;
+    padding: 6px 8px;
+    background: -webkit-linear-gradient(top, #f3f3f3, #fff);
+    background: -moz-linear-gradient(top, #f3f3f3, #fff);
+    border-color: #ccc #ccc #fff;
+    border-radius: 2px 2px 0 0;
+    border-style: solid;
+    border-width: 1px
+}
+
+.modeSelector {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    line-height: 30px
+}
+
+.modeSelector > li {
+    display: block;
+    float: left;
+    background-color: #f3f3f3;
+    padding: 8px 7px;
+    font: bold 11px Roboto, sans-serif;
+    color: #444;
+    border: 1px solid #ccc;
+    background-image: -webkit-linear-gradient(top, #fefefe, #f3f3f3);
+    background-image: -moz-linear-gradient(top, #fefefe, #f3f3f3);
+    cursor: pointer;
+    min-width: 18px;
+    text-align: center
+}
+
+.modeSelector > li:first-child {
+    border-radius: 3px 0 0 3px
+}
+
+.modeSelector > li:last-child {
+    border-radius: 0 3px 3px 0
+}
+
+.modeSelector > li.active, .modeSelector > li:active {
+    background-color: #dfdfdf;
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #dfdfdf);
+    background-image: -moz-linear-gradient(top, #f0f0f0, #dfdfdf);
+    border-color: #ccc;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, .3);
+    color: #222
+}
+
+.modeSelector > li:hover {
+    border-color: #ccc;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .2);
+    color: #222
+}
+
+#overview-graph-lineChart {
+    height: 400px
+}
+
+.sparkline-metric-analytics {
+    border-bottom: 0 none;
+    border-right: 1px solid #cbcbcb;
+    text-align: left;
+    margin: 15px 0 10px 10px;
+    width: 160px;
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+#overview-miniPie {
+    width: 520px;
+    height: 310px;
+}
+
+#overview-dimensionSummary-miniTable .table th {
+    border-top: 0
+}
+
+.daterangepicker.dropdown-menu .ranges {
+    float: right
+}
+
+.daterangepicker.opensright:before {
+    left: auto;
+    right: 69px
+}
+
+.daterangepicker.opensright:after {
+    left: auto;
+    right: 70px;
+}
+
+.date-compare-selector .form-control {
+    line-height: 1.35 !important;
+}
+
+.date-compare-selector .form-control.disabled {
+    opacity: .5
+}
+
+.ui.dropdown > .text {
+    font-weight: 400
+}
